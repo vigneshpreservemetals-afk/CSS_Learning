@@ -1,0 +1,11 @@
+. {
+    background-color: white;
+}
+
+body {
+    background-image: url("../Assets/41c2vh5i.1zm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
