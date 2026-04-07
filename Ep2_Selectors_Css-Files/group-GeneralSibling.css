@@ -1,0 +1,4 @@
+.first-parent > h1 ~ p {
+    background-color: green;
+    color: white;
+}
