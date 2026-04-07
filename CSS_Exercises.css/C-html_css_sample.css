@@ -1,5 +1,11 @@
-.Headings_&_Role {
+#behance {
 
     text-decoration: none;
+    letter-spacing: 1.5px;
 
+}
+
+.skills {
+    list-style-type: none;
+    font-family: cursive;
 }
