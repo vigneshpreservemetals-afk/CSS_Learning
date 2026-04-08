@@ -1,3 +1,5 @@
+
+
 #behance {
 
     text-decoration: none;
@@ -6,6 +8,35 @@
 }
 
 .skills {
+
     list-style-type: none;
     font-family: cursive;
+
+}
+
+#Serial { 
+
+    background-color: yellow;
+
+}
+
+table, th, td {
+
+    text-align: left;
+    border: 2px solid black;
+
+}
+
+th, td {
+
+    padding: 20px 40px;
+
+}
+
+th {
+
+    text-align: center;
+    color: tomato;
+    background-color: yellow;
+
 }
