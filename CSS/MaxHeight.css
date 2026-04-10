@@ -1,5 +1,0 @@
-.container1 > p{
-    border: 2px solid red;
-    margin: 50px;
-    max-height: 400px; /*Decreases if the content is smaller if the content gets increased it gets overlapped*/
-}

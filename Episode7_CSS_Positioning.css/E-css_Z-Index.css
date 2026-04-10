@@ -1,0 +1,46 @@
+.container1 {
+    background-color: rgb(208, 96, 96);
+    color:white;
+    padding: 25px;
+    text-align: center;
+    margin:20px;
+    width: 100px;
+    position: relative;
+    z-index: 
+}
+
+.container2 {
+    background-color: rgb(148, 96, 208);
+    color:white;
+    padding: 25px;
+    text-align: center;
+    margin:20px;
+    width: 100px;
+    position: relative;
+    bottom: 25px;
+    z-index: 3
+}
+
+.container3 {
+    background-color: rgb(13, 100, 84);
+    color:white;
+    padding: 25px;
+    text-align: center;
+    margin:20px;
+    width: 100px;
+    position: relative;
+    bottom: 60px;
+    z-index: 2
+}
+
+.container4 {
+    background-color: rgb(93, 16, 135);
+    color:white;
+    padding: 25px;
+    text-align: center;
+    margin:20px;
+    width: 100px;
+    position: relative;
+    bottom: 80px;
+    z-index: 1
+}
