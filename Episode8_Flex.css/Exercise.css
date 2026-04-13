@@ -1,8 +1,6 @@
 .container1 {
     background-color: cornflowerblue;
     color: white;
-    display: flex;
-    list-style-type: none;
 }
 
 
@@ -11,17 +9,22 @@ li> a {
     color: white;
 }
 
+ul>li {
+    list-style-type: none;
+}
 
-.flex-item {
-border: 20px;
-padding: 20px;
+.flex-item1 {
+padding: 12px;
 background-color: blueviolet;
 color: white;
-width: 100;
-height: fit-content;
-display: flex;
+max-width: 300px;
+max-height: fit-content;
+border-radius: 4px;
+justify-content: space-between;
 }
 
 .flex-container {
 display: flex;
+flex-wrap: wrap;
+gap: 20px;
 }
