@@ -17,17 +17,18 @@ li> a {
 
 .flex-item1 {
 padding: 12px;
-background-color: blueviolet;
+background-color: rgb(125, 26, 218);
 color: white;
 max-width: 300px;
 max-height: fit-content;
-border-radius: 4px;
+border-radius: 8px;
 box-shadow: 10px 10px 12px gray;
 }
 
 #button{
     padding: 20px;
-    
+    width: 300px;
+    border-radius: 4px;
 }
 
 
