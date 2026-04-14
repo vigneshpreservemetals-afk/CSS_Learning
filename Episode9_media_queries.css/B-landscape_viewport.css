@@ -1,0 +1,41 @@
+
+.container{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    margin: 25px;
+    border: 20px;
+    padding: 15px;
+    background-color: gray;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+
+@media ((min-width:600px) and (max-width:1000px)){
+   .container{
+    background-color: aquamarine;
+    flex-direction: column;
+    }
+}
+
+@media (orientation: landscape) {
+   .container{
+    background-color: rgb(37, 55, 166);
+    flex-direction: column;
+   }
+}
+
+@media ((min-width:1025px) and (max-width:1700px)){
+   .container{
+    background-color: burlywood;   
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+}
