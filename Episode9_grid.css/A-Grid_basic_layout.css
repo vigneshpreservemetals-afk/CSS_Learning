@@ -1,0 +1,17 @@
+.product {
+    background-color: tomato;
+    color:white;
+    margin:25px;
+    padding:20px;
+    text-align:center;
+    width: 150px;
+    height:175px;
+    box-shadow: 2px 3px 1px gray;
+
+}
+
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
