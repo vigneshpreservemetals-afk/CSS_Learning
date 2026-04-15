@@ -1,0 +1,42 @@
+.child_container1 {
+    background-color:rgb(231, 96, 96) ;
+    color:white;
+    width: 100px;
+    height:100px;
+    padding:20px;
+    text-align:center;
+    transition: transform 15s ease-in-out;
+} 
+
+.child_container1:hover {
+    background-color: blueviolet;
+    transform: rotate(360deg);
+}
+
+.child_container2 {
+    background-color:rgb(231, 96, 96) ;
+    color:white;
+    width: 100px;
+    height:100px;
+    padding:20px;
+    text-align:center;
+    transition: transform 5s ease;
+} 
+
+.child_container2:hover {
+    transform: rotateY(360deg);
+}
+
+.child_container3 {
+    background-color:rgb(231, 96, 96) ;
+    color:white;
+    width: 100px;
+    height:100px;
+    padding:20px;
+    text-align:center;
+    transition: transform 5s ease;
+} 
+
+.child_container3:hover {
+    transform: scale(2.5);
+}
